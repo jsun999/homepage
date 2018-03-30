@@ -449,8 +449,8 @@ a{text-decoration: none; color:#666;outline:none;}
 .cont_smtit{ display:none;}
 .cont_smtit_1{ text-align:center; display:block; line-height:25px; margin-top:10px;}
 .company_intro{ margin-top:30px; height:auto; overflow:hidden;}
-.company_intro .company_img{ width:397px; height:287px; border:1px solid #e3e3e3; padding:10px; text-align:center; float:left;}
-.company_intro .company_img img{ vertical-align:middle; display:block; }
+.company_intro .company_img{ width:397px; height:287px; border:1px solid #e3e3e3; padding:10px; text-align:center; float:left;overflow:hidden;}
+.company_intro .company_img img{ vertical-align:middle; display:block; overflow:hidden;}
 .company_intro .intro_content{ width:530px; height:314px; overflow:hidden; float:right; padding:10px 0;}
 .intro_content p{ line-height:26px; text-indent:2em;}
 .intro_content .img{ width:100%; margin-bottom:35px;}
@@ -918,7 +918,7 @@ a{text-decoration: none; color:#666;outline:none;}
 
 .idea{ padding-bottom:40px;}
 .idea ul{ width:1184px;}
-.idea ul li{ text-align:center; float:left; width:317px; height:297px; margin-right:20px; cursor:pointer;  color:#333;transition: ease 0.3s; border:1px solid #dadadc;}
+.idea ul li{ text-align:center; float:left; width:485px; height:297px; margin-right:20px; cursor:pointer;  color:#333;transition: ease 0.3s; border:1px solid #dadadc;}
 .idea ul li .box{   padding-top:30px;}
 .idea ul li .icon{ width:90px; height:92px; display:inline-block; overflow:hidden; }
 .idea ul li .icon span{ width:74px; height:92px; border-radius:50%; display:inline-block;transition: ease 0.3s}
@@ -1555,4 +1555,20 @@ a{text-decoration: none; color:#666;outline:none;}
         padding: 0;
         margin: 0 10px;
     }
+}
+
+.company_img a:hover img {
+	transform:scale(1.5); 
+	-moz-transform:scale(1.5); 
+	-ms-transform:scale(1.5); 
+	-o-transform:scale(1.5); 
+	-webkit-transform:scale(1.5);
+}
+
+.company_img img {
+	transition:ease-in all .5s; 
+	-moz-transition:ease-in all .5s;
+	-ms-transition:ease-in all .5s; 
+	-o-transition:ease-in all .5s; 
+	-webkit-transition:ease-in all .5s;
 }
