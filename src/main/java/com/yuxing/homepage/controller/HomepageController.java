@@ -12,4 +12,15 @@ public class HomepageController {
 	public String contactus(){
 		return "views/contactus.html";
 	}
+	
+	@RequestMapping("solution.do")
+	public String solution(){
+		return "views/solution.html";
+	}
+	
+	@RequestMapping("comprehensiveStrength.do")
+	public String comprehensiveStrength(){
+		return "views/comprehensiveStrength.html";
+	}
+	
 }

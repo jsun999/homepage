@@ -614,7 +614,7 @@ a{text-decoration: none; color:#666;outline:none;}
 .google_sem .box .l {
 	width: 470px;
 	float: left;
-	background:url(/Public/Images/home/phpcms/zh-cn/per_tx.png) no-repeat left top;
+	background:url(./per_tx.png) no-repeat left top;
 	height: 426px;
 	position: relative;
 	-webkit-transform: translate(-800px, 0);
