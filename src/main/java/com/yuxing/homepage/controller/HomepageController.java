@@ -23,4 +23,8 @@ public class HomepageController {
 		return "views/comprehensiveStrength.html";
 	}
 	
+	@RequestMapping("socialResponsibility.do")
+	public String socialResponsibility(){
+		return "views/socialResponsibility.html";
+	}
 }
