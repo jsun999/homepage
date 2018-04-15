@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomepageController {
 	
+//	@RequestMapping("introduce.do")
+//	public String intriduce(){
+//		return "views/intriduce.html";
+//	}
+//	
 	@RequestMapping("contactus.do")
 	public String contactus(){
 		return "views/contactus.html";
@@ -26,5 +31,10 @@ public class HomepageController {
 	@RequestMapping("socialResponsibility.do")
 	public String socialResponsibility(){
 		return "views/socialResponsibility.html";
+	}
+	
+	@RequestMapping("humanResource.do")
+	public String humanResource(){
+		return "views/humanResource.html";
 	}
 }
